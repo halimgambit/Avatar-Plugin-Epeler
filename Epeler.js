@@ -22,6 +22,7 @@ function epel (data, client) {
 		if (answer.indexOf('generic') != -1) {
 		end(client);
 		answer = answer.split(':')[1];
+		answer = answer.replace("le mot","");
 		let lettre = Array.from(answer);
 		return Avatar.speak(answer + ":s'écrit:" + lettre, data.client, function(){
 		end(data.client, true);
