@@ -7,7 +7,7 @@ exports.action = function(data, callback){
 }
 
 function epel (data, client) {
-	Avatar.askme("quel mot veux tu que j'épelle ?", data.client, 
+	Avatar.askme("quel mot veux tu que j'épele ?", data.client, 
 	{
 		'*': 'generic',
 		'terminer': 'done'
