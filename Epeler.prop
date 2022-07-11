@@ -1,0 +1,18 @@
+{
+	"modules": { 
+		"Epeler": {
+			"version": "1.0",
+			"name": "epele",
+			"tts": {
+				"Salon": "J'ai allumé la lumière",
+				"Cuisine": "J'ai allumé les spots"
+			},
+			"clients": {
+				"Salon": 60,
+				"Cuisine": 50
+			},
+			"rules": ["to spell","spell","spelled","read","decipher"]
+		}
+	}
+}
+			
