@@ -1,0 +1,10 @@
+{
+	"modules": { 
+		"Epeler": {
+			"version": "1.0",
+			"name": "epele",
+			"rules": ["to spell","spell","spelled","spends the 1 name"]
+		}
+	}
+}
+			
